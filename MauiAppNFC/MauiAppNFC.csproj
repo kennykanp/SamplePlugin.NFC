@@ -69,7 +69,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Plugin.NFC\Plugin.NFC.csproj" />
+	  <ProjectReference Include="..\Plugin.NFCNDEF\Plugin.NFCNDEF.csproj" />
+	  <!--<ProjectReference Include="..\Plugin.NFC\Plugin.NFC.csproj" />-->
 	</ItemGroup>
 
 </Project>
