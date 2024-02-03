@@ -13,36 +13,23 @@
 	<array>
 		<string>arm64</string>
 	</array>
-
+	<key>LSEnvironment</key>
+	<dict>
+		<key>OS_ACTIVITY_MODE</key>
+		<string>disable</string>
+	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
+		<string>processing</string>
 	</array>
-	
-	<key>com.apple.developer.nfc.readersession.formats</key>
-	<array>
-		<string>TAG</string>
-		<string>NDEF</string>
-	</array>
-	
-	<!--<key>com.apple.developer.nfc.hce</key>
-	<boolean>true</boolean>
-	
-	<key>com.apple.developer.nfc.hce.default-contactless-app</key>
-	<boolean>true</boolean>-->
-
 	<key>NFCReaderUsageDescription</key>
 	<string>NFC tag to read NDEF messages into the application</string>
-
-	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
-	<string>com.apple.developer.nfc.readersession.iso7816.select-identifiers</string>
-
-	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+	<key>com.apple.developer.nfc.readersession.formats</key>
 	<array>
-		<string>com.apple.developer.nfc.readersession.iso7816.select-identifiers</string>
-		<string>D2760000850100</string>
+		<string>NDEF</string>
 	</array>
-	
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -1,9 +1,6 @@
-﻿using System;
+﻿using MauiAppNFC.Interfaces;
 using System.Text;
 using System.Windows.Input;
-using MauiAppNFC;
-using MauiAppNFC.Interfaces;
-using MauiAppNFC.Platforms;
 
 namespace MauiAppNFC.ViewModels
 {
